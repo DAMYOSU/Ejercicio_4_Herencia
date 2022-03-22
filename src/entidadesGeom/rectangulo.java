@@ -27,7 +27,7 @@ public class rectangulo implements calculosFormas{
         double base = leer.nextDouble();
         System.out.println("Ingrese la Altura del Rectangulo:");
         double altura = leer.nextDouble();
-        System.out.println("\n!!  El Perimetro del Rectangulo es: " + (base + altura)+ "\n");
+        System.out.println("\n!!  El Perimetro del Rectangulo es: " + (base + altura)*2+ "\n");
     }
     
 }
